@@ -1,0 +1,9 @@
+services:
+  src:
+    build: ./src
+    container_name: fib_reactclient
+    ports:
+      - '3000:3000'
+    stdin_open: true
+    tty: true
+
